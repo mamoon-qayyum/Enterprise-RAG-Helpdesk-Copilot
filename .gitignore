@@ -1,0 +1,26 @@
+
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+venv/
+.venv/
+
+
+.streamlit/secrets.toml
+
+
+.vscode/
+.idea/
+
+
+.DS_Store
+Thumbs.db
+
+
+chroma_db/

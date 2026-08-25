@@ -1,0 +1,16 @@
+Hatfield Technologies Ltd
+IT Support Policy
+
+Employees experiencing IT problems should first restart the affected device or application where appropriate.
+
+If the issue continues, employees should contact the internal IT support team.
+
+IT support requests should include the employee's name, device, a description of the problem, and any relevant error message.
+
+Employees who forget their password should use the approved password reset process or contact IT support.
+
+Employees must never share their password with another employee, manager, or IT support representative.
+
+Urgent incidents that prevent an employee from working should be marked as high priority.
+
+Suspected security incidents, phishing emails, lost devices, or unauthorised access must be reported to IT immediately.

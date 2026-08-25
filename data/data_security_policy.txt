@@ -1,0 +1,22 @@
+Hatfield Technologies Ltd
+Data Security Policy
+
+Employees are responsible for protecting company information and systems.
+
+Passwords must not be shared with other people.
+
+Employees should use strong and unique passwords for company systems.
+
+Multi-factor authentication must be used where it is available.
+
+Confidential company information should only be accessed by authorised employees.
+
+Employees must lock their computer when leaving it unattended.
+
+Sensitive company information must not be copied to personal USB drives or personal cloud storage accounts.
+
+Suspicious emails, phishing attempts, malware, and suspected unauthorised access must be reported to IT immediately.
+
+Lost or stolen company devices should be reported as soon as possible.
+
+Employees should avoid discussing confidential business information in public places.
