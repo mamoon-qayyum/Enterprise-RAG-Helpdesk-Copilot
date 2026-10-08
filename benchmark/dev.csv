@@ -1,0 +1,3 @@
+id,category,question,answerable,expected_source,expected_keywords,notes
+DEV001,direct,How many days of annual leave do full-time employees receive?,1,annual_leave_policy.txt,25;days,Example row; replace/expand with validated benchmark items
+DEV002,unsupported,What is the company maternity leave entitlement?,0,,,Topically related unsupported example

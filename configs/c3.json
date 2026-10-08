@@ -1,0 +1,7 @@
+{
+  "name": "C3",
+  "threshold": 0.3,
+  "grounding": "strong",
+  "k": 3,
+  "use_sufficiency_check": false
+}

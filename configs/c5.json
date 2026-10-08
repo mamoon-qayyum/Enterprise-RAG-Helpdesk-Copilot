@@ -1,0 +1,7 @@
+{
+  "name": "C5",
+  "threshold": null,
+  "grounding": "strong",
+  "k": 3,
+  "use_sufficiency_check": true
+}

@@ -1,0 +1,7 @@
+{
+  "name": "C4",
+  "threshold": 0.1,
+  "grounding": "strong",
+  "k": 3,
+  "use_sufficiency_check": false
+}
