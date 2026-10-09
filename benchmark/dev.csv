@@ -1,51 +1,31 @@
 id,category,question,answerable,expected_source,expected_keywords,notes
-TEST001,direct,Is annual leave for part-time employees calculated proportionally?,1,annual_leave_policy.txt,part-time;pro-rata,Held-out annual leave question
-TEST002,direct,Who must approve an employee's annual leave request?,1,annual_leave_policy.txt,line manager,Held-out leave approval question
-TEST003,paraphrased,If I leave the company with unused accrued holiday can I be paid for it?,1,annual_leave_policy.txt,payment;unused,Held-out termination leave question
-TEST004,paraphrased,Can a manager ask me to change holiday dates when the business is especially busy?,1,annual_leave_policy.txt,manager;coverage,Held-out leave coverage question
-TEST005,direct,Can the company arrange a return-to-work meeting after sickness absence?,1,sick_leave_policy.txt,return-to-work,Held-out sickness question
-TEST006,direct,Who may review repeated or long-term sickness absence?,1,sick_leave_policy.txt,HR,Held-out sickness review question
-TEST007,paraphrased,Should I come into the office if doing so could put colleagues' health at risk?,1,sick_leave_policy.txt,health;risk,Held-out sickness safety question
-TEST008,direct,Are remote workers expected to maintain normal productivity?,1,remote_work_policy.txt,productivity,Held-out remote work question
-TEST009,paraphrased,What kind of device should I use for confidential company information while remote?,1,remote_work_policy.txt,company-issued,Held-out device question
-TEST010,direct,Can remote-working arrangements be temporarily suspended?,1,remote_work_policy.txt,suspend,Held-out remote-working restriction
-TEST011,direct,Can flexible start and finish times be permitted?,1,working_hours_policy.txt,manager;approval,Held-out flexible-hours question
-TEST012,direct,Should employees record their working hours when required?,1,working_hours_policy.txt,record;hours,Held-out working-hours question
-TEST013,paraphrased,Do I normally need permission before working overtime?,1,working_hours_policy.txt,manager;approved,Held-out overtime question
-TEST014,direct,Should employees routinely work excessive hours?,1,working_hours_policy.txt,not;excessive,Held-out rest question
-TEST015,direct,What kinds of expenses may employees claim?,1,expense_policy.txt,business;approved,Held-out expenses question
-TEST016,paraphrased,Should I ask my manager before making a significant business purchase?,1,expense_policy.txt,manager;approval,Held-out purchase question
-TEST017,direct,Can approved business travel accommodation costs be reimbursed?,1,expense_policy.txt,accommodation;reimbursed,Held-out travel expense question
-TEST018,direct,Do alcohol and entertainment expenses need prior management approval?,1,expense_policy.txt,prior;approval,Held-out restricted expense question
-TEST019,paraphrased,Can finance reject an expense claim that has no supporting evidence?,1,expense_policy.txt,reject;unsupported,Held-out expense rejection question
-TEST020,direct,May employees share their company passwords with other people?,1,data_security_policy.txt,passwords;not,Held-out password-security question
-TEST021,direct,What kind of passwords should employees use?,1,data_security_policy.txt,strong;unique,Held-out password question
-TEST022,direct,When should multi-factor authentication be used?,1,data_security_policy.txt,available,Held-out MFA question
-TEST023,paraphrased,Who is allowed to access confidential company information?,1,data_security_policy.txt,authorised,Held-out access-control question
-TEST024,direct,What should I do with my computer when I leave it unattended?,1,data_security_policy.txt,lock,Held-out physical security question
-TEST025,paraphrased,May I copy sensitive company information to my personal cloud account?,1,data_security_policy.txt,not;personal,Held-out data-handling question
-TEST026,direct,What should I do if my company device is lost or stolen?,1,data_security_policy.txt,reported,Held-out device-security question
-TEST027,paraphrased,Is it appropriate to discuss confidential business matters in public places?,1,data_security_policy.txt,avoid;public,Held-out confidentiality question
-TEST028,direct,What should I try first when an application or device has an IT problem?,1,it_support_policy.txt,restart,Held-out IT support question
-TEST029,paraphrased,If restarting does not solve my IT problem who should I contact?,1,it_support_policy.txt,IT;support,Held-out escalation question
-TEST030,direct,What information should I include in an IT support request?,1,it_support_policy.txt,device;problem,Held-out IT ticket question
-TEST031,unsupported,How many annual leave days do I have remaining right now?,0,,,Requires live employee leave balance
-TEST032,unsupported,Has my holiday request for next Monday been approved?,0,,,Requires live leave-request status
-TEST033,unsupported,What date did I last take sick leave?,0,,,Requires employee absence history
-TEST034,unsupported,How many sickness days have I personally used this year?,0,,,Requires employee absence history
-TEST035,unsupported,Has my manager approved my remote-working request for tomorrow?,0,,,Requires live approval status
-TEST036,unsupported,Which days am I personally scheduled to work from home next week?,0,,,Requires employee schedule
-TEST037,unsupported,How many hours did I work yesterday?,0,,,Requires employee timesheet data
-TEST038,unsupported,Has my overtime request been approved?,0,,,Requires live approval data
-TEST039,unsupported,What is the current status of my expense claim?,0,,,Requires live finance-system data
-TEST040,unsupported,When will my latest expense reimbursement reach my bank account?,0,,,Requires live payment data
-TEST041,unsupported,What is my current company account password?,0,,,Requires secret credential data
-TEST042,unsupported,What is my current MFA verification code?,0,,,Requires live authentication data
-TEST043,unsupported,What is the status of my open IT support ticket?,0,,,Requires live ticketing data
-TEST044,unsupported,Which IT technician is assigned to my ticket right now?,0,,,Requires live ticket-assignment data
-TEST045,unsupported,What serial number is on the laptop assigned to me?,0,,,Requires asset-management data
-TEST046,unsupported,When was my company laptop last patched?,0,,,Requires device-management data
-TEST047,unsupported,What is my personal workplace pension balance?,0,,,Requires pension-account data
-TEST048,unsupported,How much money has the company reimbursed me this year?,0,,,Requires personal transaction history
-TEST049,unsupported,What is my current salary?,0,,,Requires payroll data
-TEST050,unsupported,Who is my current line manager?,0,,,Requires employee-specific organisational data
+DEV001,direct,How many days of paid annual leave do full-time employees receive?,1,annual_leave_policy.txt,25;days,Reconstructed from recorded development experiment
+DEV002,paraphrased,How much unused holiday can I move into next year?,1,annual_leave_policy.txt,5;days,Reconstructed from recorded development experiment
+DEV003,direct,When do I need a medical certificate for sickness absence?,1,sick_leave_policy.txt,more than 7;medical,Reconstructed from recorded development experiment
+DEV004,paraphrased,Who should I tell if I am ill and when should I notify them?,1,sick_leave_policy.txt,line manager;9:00,Reconstructed from recorded development experiment
+DEV005,direct,How many days per week can eligible employees work remotely?,1,remote_work_policy.txt,2;days,Reconstructed from recorded development experiment
+DEV006,paraphrased,Do I need approval before choosing my remote working days?,1,remote_work_policy.txt,line manager;advance,Reconstructed from recorded development experiment
+DEV007,direct,What is the standard working week for full-time employees?,1,working_hours_policy.txt,37.5;hours,Reconstructed from recorded development experiment
+DEV008,paraphrased,During what hours must employees generally be available?,1,working_hours_policy.txt,10:00;4:00,Reconstructed from recorded development experiment
+DEV009,direct,Within how many days should an expense claim normally be submitted?,1,expense_policy.txt,30;days,Reconstructed from recorded development experiment
+DEV010,paraphrased,What should I do if I receive a phishing email?,1,it_support_policy.txt,it;immediately,Reconstructed from recorded development experiment
+DEV011,direct,How far in advance should I submit an annual leave request?,1,annual_leave_policy.txt,7;days,Reconstructed from recorded development experiment
+DEV012,paraphrased,What happens to unused holiday above the five-day carry-forward limit?,1,annual_leave_policy.txt,expire;hr,Reconstructed from recorded development experiment
+DEV013,direct,How many days of sickness can I self-certify?,1,sick_leave_policy.txt,7;days,Reconstructed from recorded development experiment
+DEV014,paraphrased,What should I do if my expected return-to-work date changes?,1,sick_leave_policy.txt,manager;updated,Reconstructed from recorded development experiment
+DEV015,direct,How long is the normal unpaid lunch break?,1,working_hours_policy.txt,unpaid;lunch,Reconstructed from recorded development experiment
+DEV016,direct,What are the normal office opening hours Monday to Friday?,1,working_hours_policy.txt,9:00;5:30,Reconstructed from recorded development experiment
+DEV017,paraphrased,What type of Wi-Fi should I use when working from home?,1,remote_work_policy.txt,secure;password,Reconstructed from recorded development experiment
+DEV018,paraphrased,Am I allowed to use a public computer to access internal company systems?,1,remote_work_policy.txt,public;computer,Reconstructed from recorded development experiment
+DEV019,direct,Are personal expenses reimbursed by the company?,1,expense_policy.txt,not;reimbursed,Reconstructed from recorded development experiment
+DEV020,paraphrased,What evidence should I provide when submitting an expense claim?,1,expense_policy.txt,receipts;evidence,Reconstructed from recorded development experiment
+DEV021,unsupported,How many annual leave days do I personally have remaining this year?,0,,,Reconstructed from recorded development experiment
+DEV022,unsupported,Has my annual leave request for next Friday been approved?,0,,,Reconstructed from recorded development experiment
+DEV023,unsupported,Who is my current line manager?,0,,,Reconstructed from recorded development experiment
+DEV024,unsupported,What is my current salary?,0,,,Reconstructed from recorded development experiment
+DEV025,unsupported,When will I receive my next pay rise?,0,,,Reconstructed from recorded development experiment
+DEV026,unsupported,Has expense claim EXP-1234 been approved?,0,,,Reconstructed from recorded development experiment
+DEV027,unsupported,What is the password for my company account?,0,,,Reconstructed from recorded development experiment
+DEV028,unsupported,What is my current VPN access code?,0,,,Reconstructed from recorded development experiment
+DEV029,unsupported,Which laptop serial number is currently assigned to me?,0,,,Reconstructed from recorded development experiment
+DEV030,unsupported,What is my current workplace pension balance?,0,,,Reconstructed from recorded development experiment
