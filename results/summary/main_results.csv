@@ -1,0 +1,7 @@
+file,configuration,split,n,answerability_precision,answerability_recall,answerability_f1,false_refusal_rate,unsupported_answer_rate,retrieval_recall_at_k,keyword_answer_accuracy
+c1_dev.csv,C1,dev,30,1.0,0.7,0.8235,0.3,0.0,1.0,0.65
+c2_dev.csv,C2,dev,30,1.0,1.0,1.0,0.0,0.0,1.0,0.9
+c3_dev.csv,C3,dev,30,1.0,0.7,0.8235,0.3,0.0,1.0,0.7
+c4_dev.csv,C4,dev,30,1.0,1.0,1.0,0.0,0.0,1.0,0.95
+c4_test.csv,C4,test,50,1.0,1.0,1.0,0.0,0.0,0.9667,0.9
+c5_dev.csv,C5,dev,30,1.0,0.95,0.9744,0.05,0.0,1.0,0.95

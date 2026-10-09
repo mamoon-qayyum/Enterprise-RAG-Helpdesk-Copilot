@@ -1,1 +1,51 @@
 id,category,question,answerable,expected_source,expected_keywords,notes
+TEST001,direct,Is annual leave for part-time employees calculated proportionally?,1,annual_leave_policy.txt,part-time;pro-rata,Held-out annual leave question
+TEST002,direct,Who must approve an employee's annual leave request?,1,annual_leave_policy.txt,line manager,Held-out leave approval question
+TEST003,paraphrased,If I leave the company with unused accrued holiday can I be paid for it?,1,annual_leave_policy.txt,payment;unused,Held-out termination leave question
+TEST004,paraphrased,Can a manager ask me to change holiday dates when the business is especially busy?,1,annual_leave_policy.txt,manager;coverage,Held-out leave coverage question
+TEST005,direct,Can the company arrange a return-to-work meeting after sickness absence?,1,sick_leave_policy.txt,return-to-work,Held-out sickness question
+TEST006,direct,Who may review repeated or long-term sickness absence?,1,sick_leave_policy.txt,HR,Held-out sickness review question
+TEST007,paraphrased,Should I come into the office if doing so could put colleagues' health at risk?,1,sick_leave_policy.txt,health;risk,Held-out sickness safety question
+TEST008,direct,Are remote workers expected to maintain normal productivity?,1,remote_work_policy.txt,productivity,Held-out remote work question
+TEST009,paraphrased,What kind of device should I use for confidential company information while remote?,1,remote_work_policy.txt,company-issued,Held-out device question
+TEST010,direct,Can remote-working arrangements be temporarily suspended?,1,remote_work_policy.txt,suspend,Held-out remote-working restriction
+TEST011,direct,Can flexible start and finish times be permitted?,1,working_hours_policy.txt,manager;approval,Held-out flexible-hours question
+TEST012,direct,Should employees record their working hours when required?,1,working_hours_policy.txt,record;hours,Held-out working-hours question
+TEST013,paraphrased,Do I normally need permission before working overtime?,1,working_hours_policy.txt,manager;approved,Held-out overtime question
+TEST014,direct,Should employees routinely work excessive hours?,1,working_hours_policy.txt,not;excessive,Held-out rest question
+TEST015,direct,What kinds of expenses may employees claim?,1,expense_policy.txt,business;approved,Held-out expenses question
+TEST016,paraphrased,Should I ask my manager before making a significant business purchase?,1,expense_policy.txt,manager;approval,Held-out purchase question
+TEST017,direct,Can approved business travel accommodation costs be reimbursed?,1,expense_policy.txt,accommodation;reimbursed,Held-out travel expense question
+TEST018,direct,Do alcohol and entertainment expenses need prior management approval?,1,expense_policy.txt,prior;approval,Held-out restricted expense question
+TEST019,paraphrased,Can finance reject an expense claim that has no supporting evidence?,1,expense_policy.txt,reject;unsupported,Held-out expense rejection question
+TEST020,direct,May employees share their company passwords with other people?,1,data_security_policy.txt,passwords;not,Held-out password-security question
+TEST021,direct,What kind of passwords should employees use?,1,data_security_policy.txt,strong;unique,Held-out password question
+TEST022,direct,When should multi-factor authentication be used?,1,data_security_policy.txt,available,Held-out MFA question
+TEST023,paraphrased,Who is allowed to access confidential company information?,1,data_security_policy.txt,authorised,Held-out access-control question
+TEST024,direct,What should I do with my computer when I leave it unattended?,1,data_security_policy.txt,lock,Held-out physical security question
+TEST025,paraphrased,May I copy sensitive company information to my personal cloud account?,1,data_security_policy.txt,not;personal,Held-out data-handling question
+TEST026,direct,What should I do if my company device is lost or stolen?,1,data_security_policy.txt,reported,Held-out device-security question
+TEST027,paraphrased,Is it appropriate to discuss confidential business matters in public places?,1,data_security_policy.txt,avoid;public,Held-out confidentiality question
+TEST028,direct,What should I try first when an application or device has an IT problem?,1,it_support_policy.txt,restart,Held-out IT support question
+TEST029,paraphrased,If restarting does not solve my IT problem who should I contact?,1,it_support_policy.txt,IT;support,Held-out escalation question
+TEST030,direct,What information should I include in an IT support request?,1,it_support_policy.txt,device;problem,Held-out IT ticket question
+TEST031,unsupported,How many annual leave days do I have remaining right now?,0,,,Requires live employee leave balance
+TEST032,unsupported,Has my holiday request for next Monday been approved?,0,,,Requires live leave-request status
+TEST033,unsupported,What date did I last take sick leave?,0,,,Requires employee absence history
+TEST034,unsupported,How many sickness days have I personally used this year?,0,,,Requires employee absence history
+TEST035,unsupported,Has my manager approved my remote-working request for tomorrow?,0,,,Requires live approval status
+TEST036,unsupported,Which days am I personally scheduled to work from home next week?,0,,,Requires employee schedule
+TEST037,unsupported,How many hours did I work yesterday?,0,,,Requires employee timesheet data
+TEST038,unsupported,Has my overtime request been approved?,0,,,Requires live approval data
+TEST039,unsupported,What is the current status of my expense claim?,0,,,Requires live finance-system data
+TEST040,unsupported,When will my latest expense reimbursement reach my bank account?,0,,,Requires live payment data
+TEST041,unsupported,What is my current company account password?,0,,,Requires secret credential data
+TEST042,unsupported,What is my current MFA verification code?,0,,,Requires live authentication data
+TEST043,unsupported,What is the status of my open IT support ticket?,0,,,Requires live ticketing data
+TEST044,unsupported,Which IT technician is assigned to my ticket right now?,0,,,Requires live ticket-assignment data
+TEST045,unsupported,What serial number is on the laptop assigned to me?,0,,,Requires asset-management data
+TEST046,unsupported,When was my company laptop last patched?,0,,,Requires device-management data
+TEST047,unsupported,What is my personal workplace pension balance?,0,,,Requires pension-account data
+TEST048,unsupported,How much money has the company reimbursed me this year?,0,,,Requires personal transaction history
+TEST049,unsupported,What is my current salary?,0,,,Requires payroll data
+TEST050,unsupported,Who is my current line manager?,0,,,Requires employee-specific organisational data
